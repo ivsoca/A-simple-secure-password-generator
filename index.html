@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>  
+
+    <div class="container">
+    <h1>Generador de contraseñas</h1>
+    
+    <!-- <label for="cantidadDigitos10">10 Digitos</label>
+    <input id="cantidadDigitos10" value="10" type="checkbox">
+    
+    <label for="cantidadStrings12">12 Digitos</label>
+    <input id="cantidadStrings12" value="12" type="checkbox"> -->
+        <div class="container-in">
+            <input type="number" class="inputNumber" id="inputNumber">
+            <input type="range" min="0" max="100" value="50" id="progressBar" class="inputRange">
+            <span id="progressValue">50</span>
+        </div>
+   
+    
+    <br>
+    <input type="text" id="salida" class="inputPassword"></input>
+
+    <!-- <input type="btnCopy" id="btnCopy"> -->
+
+    <button id="btn" class="botonEnviar">Generar!</button>
+
+    <button id="copyP" onClick="copyPassword()"><img src="./estesi.png" class="imagenBoton"></button>
+
+    <span id="message"></span>
+
+</div>
+
+    <script src="./generadoBarra.js"></script>
+    <!-- <script src="./generador.js"></script> -->
+</body>
+</html>

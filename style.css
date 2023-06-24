@@ -1,0 +1,50 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputPassword{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+.imagenBoton{
+    width: 25px;
+    height: 25px;
+}
+
+.inputRange{
+    width: 190px;
+    height: 8px;
+}
+
+.inputNumber{
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.botonEnviar{
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 70px;
+    height: 20px;
+}
+
+.botonEnviar:hover{
+    background-color:rgb(118, 223, 188);
+}
+
+.botonEnviar:active{
+    background-color:rgb(192, 242, 226);
+}
