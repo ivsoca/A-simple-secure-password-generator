@@ -42,6 +42,10 @@ function updateProgressValue() {
   const value = progressBar.value;
   progressValue.textContent = value;
   passGenerate(value);
+
+  if(value){
+    let mensaje = message.innerHTML = "";
+  }
 };
 
 function copyPassword(){
@@ -49,5 +53,10 @@ function copyPassword(){
   resultado.setSelectionRange(0, 99999);
   document.execCommand('copy');
 
-  message.innerHTML = "Copiado!"
+  let mensaje = message.innerHTML = "Copiado!"
+  return mensaje;
 }
+
+
+
+
