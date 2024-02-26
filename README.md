@@ -1,2 +1,2 @@
-# Generador-de-contraseñas
-Un simple generador de contrseñas seguras
+# Secure password generator
+A simple secure password generator I made to practice javascript.
